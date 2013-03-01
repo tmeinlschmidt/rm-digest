@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["tomas@meinlschmidt.com"]
   gem.description   = %q{MD5 and SHA1 Digest}
   gem.summary       = %q{MD5 and SHA1 Digest}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/tmeinlschmidt/rm-digest"
 
   gem.files         = `git ls-files`.split($\)
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
