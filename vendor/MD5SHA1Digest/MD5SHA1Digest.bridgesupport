@@ -1,3 +1,47 @@
 <?xml version='1.0'?>
-<!DOCTYPE signatures SYSTEM "file://localhost/System/Library/DTDs/BridgeSupport.dtd">
-<signatures version='1.0'/>
+<signatures version='1.0'>
+<class name='NSData'>
+<method selector='MD5Digest'>
+<retval declared_type='NSData*' type='@'/>
+</method>
+<method class_method='true' selector='MD5Digest:'>
+<arg declared_type='NSData*' index='0' name='input' type='@'/>
+<retval declared_type='NSData*' type='@'/>
+</method>
+<method selector='MD5HexDigest'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method class_method='true' selector='MD5HexDigest:'>
+<arg declared_type='NSData*' index='0' name='input' type='@'/>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='SHA1Digest'>
+<retval declared_type='NSData*' type='@'/>
+</method>
+<method class_method='true' selector='SHA1Digest:'>
+<arg declared_type='NSData*' index='0' name='input' type='@'/>
+<retval declared_type='NSData*' type='@'/>
+</method>
+<method selector='SHA1HexDigest'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method class_method='true' selector='SHA1HexDigest:'>
+<arg declared_type='NSData*' index='0' name='input' type='@'/>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='SHA256Digest'>
+<retval declared_type='NSData*' type='@'/>
+</method>
+<method class_method='true' selector='SHA256Digest:'>
+<arg declared_type='NSData*' index='0' name='input' type='@'/>
+<retval declared_type='NSData*' type='@'/>
+</method>
+<method selector='SHA256HexDigest'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method class_method='true' selector='SHA256HexDigest:'>
+<arg declared_type='NSData*' index='0' name='input' type='@'/>
+<retval declared_type='NSString*' type='@'/>
+</method>
+</class>
+</signatures>
