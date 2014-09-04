@@ -1,6 +1,6 @@
 # RmDigest
 
-Simple gem to provide MD5 and SHA1 digest functionality. It uses ObjC library, included in ```vendor``` directory
+Simple gem to provide MD5, SHA1, and SHA256 digest functionality. It uses ObjC library, included in ```vendor``` directory. Use instead of the 
 
 ## Installation
 
@@ -20,6 +20,7 @@ Or install it yourself as:
 
 ```
 digestSHA1String = RmDigest::SHA1.hexdigest('some string')
+digestSHA256String = RmDigest::SHA256.hexdigest('some string')
 digestMD51String = RmDigest::MD5.hexdigest('some string')
 ```
 
@@ -27,6 +28,7 @@ Gem provides byte based digests
 
 ```
 digestSHA1Bytes = RmDigest::SHA1.digest('some string')
+digestSHA256Bytes = RmDigest::SHA256.digest('some string')
 digestMD51Bytes = RmDigest::MD5.digest('some string')
 ```
 
